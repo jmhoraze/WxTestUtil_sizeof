@@ -36,7 +36,8 @@ I have, therefore, written a few methods in Java to return the size of given var
 
 You are welcome to browse my code snippets for c/c++ and iOS and Android.
 
-Particular when calling the c/c++ snippet in iOS and (through some wrapper) in Android you can compare the size of variable types when run on different devices.  E.g., long in c/c++ is four byte on iOS <= 9 (= 32 bit environment) and eight byte on iOS >= 10 (= 64 bit environment).  Likewise for Android — once I figure out, how to get the JNI / NDK to compile my c/c++ methods to 64 bit.  (No thanks to Android Studio with gradle and NDK changing syntax and features with quite some disregard to existing projects, scripts, and applications...)
+Particular when calling the c/c++ snippet in iOS and (through some wrapper) in Android you can compare the size of variable types when run on different devices.  E.g., long in c/c++ is four byte on iOS <= 9 (= 32 bit environment) and eight byte on iOS >= 10 (= 64 bit environment).  
+Likewise for Android — once I figure out, how to get the JNI / NDK to compile my c/c++ methods to 64 bit...  (No thanks to Android Studio with gradle and NDK changing syntax and features with quite some disregard to existing projects, scripts, and applications...)
 
 
 Enjoy,<br>
