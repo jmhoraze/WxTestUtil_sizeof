@@ -2,7 +2,7 @@
 print size in Byte of various var types (c/c++, m/mm, java)
 
 
-<b>History<\b>
+<b>History</b>
 
 Over the years one of the, well, challenging areas in software development on different hardware platforms is the use of variable types.
 
@@ -25,7 +25,7 @@ Until 64 bit machines became popular; now, depending on the compiler, the operat
 HEre, long can be either four or eight byte, long long is eight byte = 64 bit.
 
 
-<b>Problem and Solution<\b>
+<b>Problem and Solution</b>
   
 As it is often unknown on what platform the developped application will run (64 bit vs 32 bit vs 16 bit) it is essential that a chosen variable type is of the planned or designed size!
 
