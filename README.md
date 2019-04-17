@@ -45,6 +45,6 @@ Enjoy,<br>
 San José, California    
 16-April-2019
     
-    
+<br>    
 <b>Computers (should) help you solve problems, your would not have without them!</b>
 
