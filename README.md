@@ -1,8 +1,8 @@
 # WxTestUtil_sizeof
 print size in Byte of various var types (c/c++, m/mm, java)
 
-<br>
-<b>History</b>
+
+<p2>History</p2>
 
 Over the years one of the, well, challenging areas in software development on different hardware platforms is the use of variable types.
 
@@ -24,8 +24,7 @@ Until 64 bit machines became popular; now, depending on the compiler, the operat
 
 Here, long can be either four or eight byte, long long is eight byte = 64 bit.
 
-<br>
-<b>Problem and Solution</b>
+<p2>Problem and Solution</p2>
   
 As it is often unknown on what platform the developped application will run (64 bit vs 32 bit vs 16 bit) it is essential that a chosen variable type is of the planned or designed size!
 
