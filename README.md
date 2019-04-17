@@ -39,12 +39,12 @@ You are welcome to browse my code snippets for c/c++ and iOS and Android.
 Particular when calling the c/c++ snippet in iOS and (through some wrapper) in Android you can compare the size of variable types when run on different devices.  E.g., long in c/c++ is four byte on iOS <= 9 (= 32 bit environment) and eight byte on iOS >= 10 (= 64 bit environment).  Likewise for Android — once I figure out, how to get the JNI / NDK to compile my c/c++ methods to 64 bit.  (No thanks to Android Studio with gradle and NDK changing syntax and features with quite some disregard to existing projects, scripts, and applications...)
 
 
-Enjoy,
-    jm.
+Enjoy,<br>
+&nbsp; &nbsp; <i>jm</i>.
     
 San José, California    
 16-April-2019
     
     
-Computers (should) help you solve problems, your would not have without them!
+<b>Computers (should) help you solve problems, your would not have without them!</b>
 
