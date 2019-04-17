@@ -4,25 +4,25 @@ print size in Byte of various var types (c/c++, m/mm, java)
 
 <h2>History</h2>
 
-Over the years one of the, well, challenging areas in software development on different hardware platforms is the use of variable types.
+Over the years one of the, well, challenging areas in software development on different hardware platforms is the use of the right variable, when there are different types.
 
-With 8 and 16 bit machines, an int or integer was two byte (whereas, when Intel defined it, it could be at first just one byte, with a second one added when necessary).  Starting from zero (0), positive values increased the binary value to a certain maximum, negative values were subtracted; so a "+1" would be a x0001 and a "–1" a xffff, and so on.
+With 8 and 16 bit machines, an int or integer had two byte (whereas, when Intel defined it, it could be at first just one byte, with a second one added when necessary).  Starting from zero (0), positive values increased the binary value to a certain maximum, negative values were subtracted; so a "+1" would be a x0001 and a "–1" a xffff, and so on.
 
-The variable type byte is always one byte = 8 bit.
+The variable with type byte is always one byte = 8 bit.
 
 So far so good.
 
 But then things became a bit fuzzy with introduction of 32 bit and later the 64 bit machines.
 
-Depending on the compiler, the operating system's architecture (16 bit vs 32 bit for a 32 bit hardware architecture) int or integer types could be two or four byte long; and there was need to somewhat control the variable size; so short and long were introduced.
+Depending on the compiler and the operating system's architecture (16 bit vs 32 bit for a 32 bit hardware architecture) int or integer types could be two or four byte long.  So there was need to somewhat control the variable size; and short and long were introduced.
 
 The variable type short is two byte = 16 bit.
 
 While int can vary in size two or four byte, long is four byte = 32 bit.
 
-Until 64 bit machines became popular; now, depending on the compiler, the operating system's architecture (32 bit vs 64 bit for a 64 bit hardware architecture) int or integer were now always four byte long, but now long could be either four or eight byte; to get back control, the type long long got introduced.
+Until 64 bit machines became popular.  Here, depending on the compiler and the operating system's architecture (32 bit vs 64 bit for a 64 bit hardware architecture) int or integer were now always four byte long, but now long could be either four or eight byte.  To regain control, the type long long gwas introduced.
 
-Here, long can be either four or eight byte, long long is eight byte = 64 bit.
+To summarize, long can be either four or eight byte, long long is eight byte = 64 bit.
 
 <h2>Problem and Solution</h2>
   
