@@ -14,13 +14,13 @@ So far so good.
 
 But then things became a bit fuzzy with introduction of 32 bit and later the 64 bit machines.
 
-Depending on the compiler and the operating system's architecture (16 bit vs 32 bit for a 32 bit hardware architecture) int or integer types could be two or four byte long.  So there was need to somewhat control the variable size; and short and long were introduced.
+Depending on the compiler and the operating system's architecture (16 bit vs 32 bit for a 32 bit hardware platform) int or integer types could be two or four byte long.  So there was need to somewhat control the variable size; and short and long were introduced.
 
 The variable type short is two byte = 16 bit.
 
 While int can vary in size two or four byte, long is four byte = 32 bit.
 
-Until 64 bit machines became popular.  Here, depending on the compiler and the operating system's architecture (32 bit vs 64 bit for a 64 bit hardware architecture) int or integer were now always four byte long, but now long could be either four or eight byte.  To regain control, the type long long gwas introduced.
+Until 64 bit machines became popular.  Here, depending on the compiler and the operating system's architecture (32 bit vs 64 bit for a 64 bit hardware platform) int or integer were now always four byte long, but now long could be either four or eight byte.  To regain control, the type long long gwas introduced.
 
 To summarize, long can be either four or eight byte, long long is eight byte = 64 bit.
 
